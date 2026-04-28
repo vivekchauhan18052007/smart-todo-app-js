@@ -1,0 +1,105 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+#header {
+  height: 50px;
+  width: 100%;
+  background-color: #2b6777;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#container {
+  height: auto;
+  width: auto;
+  padding: 20px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+body {
+  background-color: skyblue;
+}
+
+.hidden {
+  opacity: 0.8;
+}
+
+li {
+  border: 1px dashed black;
+  border-radius: 5px;
+  padding: 5px;
+  width: auto;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(112, 12, 86);
+  color: white;
+}
+
+li span {
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+li button {
+  margin-right: 10px;
+  background-color: pink;
+  color: black;
+  padding: 5px;
+}
+
+#input-text {
+  margin: 20px;
+  height: 40px;
+  width: 200px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+#add {
+  padding: 20px;
+  margin: 2px;
+  background-color: pink;
+  color: black;
+}
+
+#taskList {
+  padding: 10px;
+  padding: 20px;
+}
+
+#footer {
+  height: 50px;
+  width: 100%;
+  background-color: #2b6777;
+  text-align: center;
+  color: white;
+  margin: auto;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+}
